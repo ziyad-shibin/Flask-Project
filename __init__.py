@@ -9,5 +9,6 @@ def create_app():
     # Register blueprints
     from .routes import main as main_blueprint
     app.register_blueprint(main_blueprint)
+    # editinh this file
 
     return app
